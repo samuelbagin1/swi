@@ -1,1 +1,0 @@
-ulohy z cviceni
