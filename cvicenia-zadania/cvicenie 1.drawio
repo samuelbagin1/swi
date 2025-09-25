@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="sOinfFVIXdMPQYyjmFj9">
+    <mxGraphModel dx="1099" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-1" value="zakaznik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-2" value="cerpanie PHL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-3" value="zakupenie tovaru" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-4" value="vysavanie auta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-5" value="fukanie pneumatik" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-8" value="vykonanie transakcie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-1" target="DDIKI0EznOYEKbzk-tLN-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-1" target="DDIKI0EznOYEKbzk-tLN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-1" target="DDIKI0EznOYEKbzk-tLN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-1" target="DDIKI0EznOYEKbzk-tLN-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-13" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-2" target="DDIKI0EznOYEKbzk-tLN-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="190" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-14" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="endArrow=openThin;dashed=1;html=1;rounded=0;endFill=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-3" target="DDIKI0EznOYEKbzk-tLN-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-15" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="endArrow=openThin;dashed=1;html=1;rounded=0;endFill=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-4" target="DDIKI0EznOYEKbzk-tLN-8">
+          <mxGeometry x="0.0209" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-16" value="vyuzitie zlavy/vernostnych bodov" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-17" value="&amp;lt;&amp;lt; extend &amp;gt;&amp;gt;" style="endArrow=none;dashed=1;html=1;rounded=0;endFill=0;startArrow=openThin;startFill=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-8" target="DDIKI0EznOYEKbzk-tLN-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="190" as="sourcePoint" />
+            <mxPoint x="680" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-18" value="platba kartou" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-19" value="platba hotovosti" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-20" value="" style="endArrow=none;html=1;rounded=0;startArrow=block;startFill=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-8" target="DDIKI0EznOYEKbzk-tLN-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="260" as="sourcePoint" />
+            <mxPoint x="660" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDIKI0EznOYEKbzk-tLN-21" value="" style="endArrow=none;html=1;rounded=0;startArrow=block;startFill=0;" edge="1" parent="1" source="DDIKI0EznOYEKbzk-tLN-8" target="DDIKI0EznOYEKbzk-tLN-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="660" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
